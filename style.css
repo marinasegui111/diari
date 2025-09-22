@@ -1,0 +1,107 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F2E8D5; /* Beige claro de fondo */
+    color: #3E2C1C; /* Marrón oscuro para el texto */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #7A5C4F; /* Marrón medio para el header */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #F5E1B1; /* Beige suave para el título */
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #F5E1B1; /* Beige suave para los enlaces */
+    font-size: 1.1rem;
+    margin: 5px;
+    padding: 8px;
+    transition: color 0.3s ease;
+}
+
+ul a:hover {
+    color: #D3A872; /* Un marrón más cálido al hacer hover */
+}
+
+/* Section */
+section {
+    margin-top: 30px;
+    background-color: #E6D2B6; /* Fondo beige cálido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #5E4A3B; /* Marrón más oscuro para el subtítulo */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color: #5C4A39; /* Marrón suave para los párrafos */
+    margin-bottom: 15px;
+}
+
+/* Imágenes */
+section img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    width:30%;
+}
+
+/* Detalles */
+a {
+    text-decoration: none;
+    color: #3E2C1C; /* Marrón oscuro para los enlaces */
+}
+
+a:hover {
+    color: #605445e9; /* Marrón cálido al hacer hover */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
